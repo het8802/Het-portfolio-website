@@ -157,7 +157,6 @@ export default function Home() {
                   <li>Engineered a responsive frontend for the ParentCoach.AI app in React Native, achieving 100% fidelity to Figma designs.</li>
                   <li>Improved app UI/UX through iterative design improvements, directly collaborating with the CEO.</li>
                   <li>Leveraged Redux to manage the application state, enabling robust features like user authentication, settings, and real-time notifications.</li>
-                  <li>Wrote over 100 unit and functional tests for the iOS application, increasing test coverage to 95% and reducing critical bugs before production.</li>
                 </ul>
               </Card3D>
               
@@ -200,17 +199,6 @@ export default function Home() {
           >
             <Text3D text="Projects" />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <Card3D className="card">
-                <h3 className="text-xl font-bold">August AI: Personal Desktop Assistant</h3>
-                <p className="text-primary">Sep 2024 - Present</p>
-                <ul className="list-disc list-inside mt-4 space-y-2">
-                  <li>Developed an AI-driven screen capture system that automatically extracts on-screen text using OCR (Tesseract, OpenCV) and feeds it into an AI model for real-time assistance.</li>
-                  <li>Designed a Conversational AI module that processes extracted text and provides intelligent recommendations based on NLP and contextual understanding.</li>
-                  <li>Optimized the on-device AI pipeline to ensure real-time performance with minimal computational overhead, leveraging C++ and Python for efficiency.</li>
-                  <li>Integrated speech-to-text (ASR) capabilities to enable seamless voice interactions, improving accessibility for hands-free usage.</li>
-                  <li>Implemented deep learning-based OCR enhancements using TensorFlow and PyTorch, improving text extraction accuracy by 27%.</li>
-                </ul>
-              </Card3D>
               
               <Card3D className="card">
                 <h3 className="text-xl font-bold">K-Means Clustering Visualization</h3>
