@@ -26,6 +26,10 @@ body {
   min-height: 100vh;
 }
 
+.Text3D {
+  color: #fff !important;
+}
+
 @layer components {
   .section-padding {
     @apply py-20 px-4 sm:px-6 lg:px-8;
